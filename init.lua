@@ -82,3 +82,7 @@ minetest.register_on_mods_loaded(function()
 	override_hotstone()
 	override_stone()
 end)
+
+if minetest.settings:get_bool("log_mods") then
+	minetest.log("action", "[Lava Ore Generation] Loaded.")
+end
