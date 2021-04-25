@@ -29,19 +29,13 @@ lava_ore_gen.blacklist["default:stone_with_iron"] = true
 
 # Settings
 
-The stone node name to override.
-
-```lua
-lava_ore_gen.stone_name = "default:stone"
-```
-
-Fixed interval of when to change stone to ore.
+Fixed interval of when stone is changed into ore.
 
 ```lua
 lava_ore_gen.interval = 3600
 ```
 
-Random chance of when to change stone to ore.
+Random chance of when to change stone into ore.
 
 ```lua
 lava_ore_gen.chance = 86400
